@@ -38,7 +38,7 @@ export default function Home({ allPostsData, users }) {
               <ul className={utilStyles.list}>
                   {users.map(({ userId, firstName, lastName }) => (
                       <li className={utilStyles.listItem} key={userId}>
-                          <p>{userId }. { firstName } { lastName}</p>
+                          <p>{userId }. { firstName } { lastName};</p>
 
                       </li>
                   ))}
